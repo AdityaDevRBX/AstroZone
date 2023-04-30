@@ -628,7 +628,8 @@ body {
   margin-top: -0.5em;
   margin-left: -0.5em; }
 
-
+/* --------------------------------------------------------------------------- text infos data */
+/* --------------------------------------------------------------------------- speed */
 .set-speed dl.infos dd span:after {
   content: 'Orbit Velocity'; }
 
@@ -1071,9 +1072,7 @@ dl.infos {
   padding-left: 100%;
   transform-origin: 100% 100%;
   transform-style: preserve-3d;
-  transform: rotateX(90deg); 
-  font-weight: bold;
-}
+  transform: rotateX(90deg); }
 
 dl.infos:before {
   position: absolute;
@@ -1086,9 +1085,7 @@ dl.infos:before {
   border-left: 1px solid white;
   transform-style: preserve-3d;
   transform: skew(-45deg, 0deg);
-  box-shadow: inset 1px 1px black; 
-  font-weight: bold;
-}
+  box-shadow: inset 1px 1px black; }
 
 dl.infos dt {
   position: absolute;
@@ -1097,9 +1094,7 @@ dl.infos dt {
   bottom: 30px;
   color: #FFF;
   font-size: 14px;
-  text-shadow: 1px 1px 2px black;
-  font-weight: bold;
-}
+  text-shadow: 1px 1px 2px black; }
 
 dl.infos dd:after {
   position: absolute;
@@ -1108,9 +1103,7 @@ dl.infos dd:after {
   width: 300px;
   color: #FFF;
   font-size: 22px;
-  text-shadow: 1px 1px 2px black;
-  font-weight: bold;
-}
+  text-shadow: 1px 1px 2px black; }
 
 dl.infos dd span:after {
   position: absolute;
@@ -1119,9 +1112,7 @@ dl.infos dd span:after {
   width: 300px;
   color: #FFF;
   font-size: 11px;
-  text-shadow: 1px 1px 2px black;
-  font-weight: bold;
-}
+  text-shadow: 1px 1px 2px black; }
 
 .sun #sun .infos,
 .mercury #mercury .infos,
@@ -1164,9 +1155,7 @@ h1 {
   font-weight: 600;
   font-size: 14px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
-  font-weight: bold;
-}
+  color: rgba(255, 255, 255, 0.8); }
 
 h1 span, #navbar h1 a {
   display: inline;
@@ -1194,9 +1183,7 @@ h1 span, #navbar h1 a {
   color: rgba(255, 255, 255, 0.6);
   display: block;
   position: relative;
-  text-decoration: none;
-  font-weight: bold;
-}
+  text-decoration: none; }
 
 #navbar a:hover, #data a:hover, #controls label:hover {
   color: #FFF; }
@@ -1222,8 +1209,7 @@ h1 span, #navbar h1 a {
   position: fixed;
   opacity: 1;
   top: 49px;
-  padding: 16px;
-font-weight: bold;}
+  padding: 16px; }
 
 .data-close #data {
   left: -100%; }
@@ -1240,9 +1226,7 @@ font-weight: bold;}
 #data a {
   margin-bottom: 1px;
   padding: 6px 10px;
-  font-size: 18px;
-  font-weight: bold;
-}
+  font-size: 18px; }
 
 #controls label {
   opacity: .6;
@@ -1403,14 +1387,14 @@ font-weight: bold;}
 
 h1, #data, #controls {
   transition-property: opacity, margin;
-  transition-duration: .3s;
+  transition-duration: .8s;
   transition-timing-function: ease-in-out; }
 
 h1 {
-  transition-delay: .15s; }
+  transition-delay: .35s; }
 
 #data {
-  transition-delay: .4s; }
+  transition-delay: .7s; }
 
 #controls {
   transition-delay: 1s; }
@@ -1455,9 +1439,7 @@ body {
 /* --------------------------------------------------------------------------- responsive styles */
 @media screen and (max-width: 299px) {
   #universe {
-    font-size: 20%;
-    font-weight: bold;
-  } }
+    font-size: 20%; } }
 @media screen and (min-width: 300px) {
   #universe {
     font-size: 24%; } }
@@ -1481,11 +1463,8 @@ body {
     display: none; }
 
   h1 {
-    font-size: 28px;
-    margin-top: 8px;
-    font-weight: bold;
-  }
-  
+    font-size: 22px;
+    margin-top: 8px; }
 
   #controls {
     padding-right: 32px;
@@ -1496,19 +1475,13 @@ body {
     top: inherit;
     bottom: 0;
     width: 100%;
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    
-  }
+    text-align: center; }
 
   #data a {
     display: inline-block;
     text-align: center;
-    font-size: 36px;
-    padding: 15px 15px;
-    font-weight: bold;
-  }
+    font-size: 20px;
+    padding: 15px 15px; }
 
   .data-open #data, .data-close #data {
     left: 0px; }
